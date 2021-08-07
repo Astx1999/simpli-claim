@@ -70,7 +70,7 @@
 }
 
 .tabs {
-  height: 24px;
+  height: 40px;
   width: 124px;
   background-color: $selectColor;
   opacity: 0.72;
@@ -86,9 +86,11 @@
   }
   @media only screen and (max-width: $extraLargeDisplay) {
     width: 134px;
+    height: 34px;
   }
   @media only screen and (max-width: $largeDisplay) {
     width: 124px;
+    height: 24px;
   }
 
   .arrow {
@@ -99,14 +101,25 @@
 }
 
 .action {
-  width: 24px;
-  height: 24px;
+  width: 25px;
+  height: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 0 0 4px;
   background-color: $selectColor;
   opacity: 0.72;
+  zoom: 1.5;
+
+  @media only screen and (max-width: $extraLargeDisplay) {
+    width: 22px;
+    height: 22px;
+  }
+  @media only screen and (max-width: $largeDisplay) {
+    width: 24px;
+    height: 24px;
+    zoom: 1;
+  }
 }
 
 .rightSide {
