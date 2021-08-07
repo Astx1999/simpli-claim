@@ -16,10 +16,8 @@ export default function Header() {
 
     const [dateState, setDateState] = useState(new Date());
     useEffect(() => {
-        setInterval(() => setDateState(new Date()), 30000);
-        return ()=>{
-
-        }
+        const interval = setInterval(() => setDateState(new Date()), 30000);
+        return () => clearInterval(interval);
     }, []);
 
     return (

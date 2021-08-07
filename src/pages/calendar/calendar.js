@@ -58,9 +58,7 @@ const Calendar = () => {
             hour12: true,
         })
         setTime(format.replace(/[A-Z]*(\d*)[A-Z]/g, ''))
-        return () => {
-            clearInterval(interval)
-        }
+        return () => clearInterval(interval);
     }, []);
 
     const getQuarterHeight = () => {
