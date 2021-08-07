@@ -20,10 +20,12 @@
     height: 35px;
   }
 }
-.leftSide, .rightSide{
+
+.leftSide, .rightSide {
   display: flex;
   align-items: center;
 }
+
 .account {
   display: flex;
   align-items: center;
@@ -95,6 +97,7 @@
     }
   }
 }
+
 .action {
   width: 24px;
   height: 24px;
@@ -105,10 +108,12 @@
   background-color: $selectColor;
   opacity: 0.72;
 }
-.rightSide{
+
+.rightSide {
   align-items: flex-end;
 }
-.time{
+
+.time {
   display: flex;
   align-items: center;
   color: $textColor;
@@ -116,14 +121,36 @@
   padding-right: 16px;
   border-right: 1px solid $textColor;
   font-family: $fontMedium;
-  .icon{
+
+  .icon {
     margin-right: 4px;
     height: 14px;
     margin-left: 0;
+    zoom: 1.5;
+    @media only screen and (max-width: $extraExtraLargeDisplay) {
+      zoom: 1.5;
+    }
+    @media only screen and (max-width: $extraLargeDisplay) {
+      zoom: 1.2;
+    }
+    @media only screen and (max-width: $largeDisplay) {
+      zoom: 1;
+    }
   }
 }
-.icon{
+
+.icon {
   margin-left: 18px;
   display: flex;
   align-items: center;
+  zoom: 1.5;
+  @media only screen and (max-width: $extraExtraLargeDisplay) {
+    zoom: 1.5;
+  }
+  @media only screen and (max-width: $extraLargeDisplay) {
+    zoom: 1.2;
+  }
+  @media only screen and (max-width: $largeDisplay) {
+    zoom: 1;
+  }
 }

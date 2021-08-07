@@ -1,5 +1,6 @@
 @import "../../variables";
-.root{
+
+.root {
   display: flex;
   flex-direction: column;
   background-color: #1f1f1f;
@@ -19,12 +20,14 @@
     top: 35px;
   }
 }
-.item{
+
+.item {
   width: 55px;
   height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
+  zoom: 1.5;
   @media only screen and (max-width: $extraLargeDisplay) {
     width: 50px;
     height: 45px;
@@ -33,8 +36,19 @@
     width: 45px;
     height: 36px;
   }
+
+  @media only screen and (max-width: $extraExtraLargeDisplay) {
+    zoom: 1.5;
+  }
+  @media only screen and (max-width: $extraLargeDisplay) {
+    zoom: 1.2;
+  }
+  @media only screen and (max-width: $largeDisplay) {
+    zoom: 1;
+  }
 }
-.active{
+
+.active {
   background-color: #1f2d3a;
   border-left: 2px solid $secondaryColor;
 }

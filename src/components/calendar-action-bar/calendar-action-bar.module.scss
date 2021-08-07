@@ -1,15 +1,16 @@
 @import "src/variables";
 
 .root {
-  margin: 0 8px 0 20px;
+  margin: 0 8px 0 50px;
   border-radius: 50px;
   background-color: rgba(225, 225, 225, 0.06);
   display: flex;
-  height: 24px;
+  height: 40px;
   justify-content: space-between;
   overflow: hidden;
   @media only screen and (max-width: $extraLargeDisplay) {
     margin: 0 8px 0 20px;
+    height: 24px
   }
   @media only screen and (max-width: $largeDisplay) {
     margin: 0 8px;
@@ -27,8 +28,10 @@
   font-size: 14px;
   color: $titleColor;
   font-family: $fontMedium;
+  zoom: 1.2;
   @media only screen and (max-width: $largeDisplay) {
     font-size: 10px;
+    zooom: 1
   }
   @media only screen and (max-width: $extraLargeDisplay) {
     font-size: 12px;

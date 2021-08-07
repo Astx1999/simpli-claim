@@ -6,7 +6,6 @@ import useWindowResize from "../../hooks/use-window-resize/use-window-resize";
 import styles from './calendar.module.scss'
 
 
-
 const week = [
     {
         dayNumber: '08',
@@ -70,10 +69,10 @@ const Calendar = () => {
 
         }
         if (width <= 1440) {
-            return  (((dateState.getHours() - 9) * 4 * 50) + ((dateState.getMinutes() / 60) * 50 * 4) + 38)
+            return (((dateState.getHours() - 9) * 4 * 50) + ((dateState.getMinutes() / 60) * 50 * 4) + 38)
         }
-        if (width <= 2160) {
-            return  (((dateState.getHours() - 9) * 4 * 70) + ((dateState.getMinutes() / 60) * 70 * 4) + 38)
+        if (width <= 2160 || width >= 2160) {
+            return (((dateState.getHours() - 9) * 4 * 70) + ((dateState.getMinutes() / 60) * 70 * 4) + 38)
         }
     }
     return (
@@ -88,7 +87,7 @@ const Calendar = () => {
             </div>
 
             <div className={styles.events}>
-                {(dateState.getHours() <= 18 && dateState.getMinutes() <= 59) ?
+                {(dateState.getHours() <= 23 && dateState.getMinutes() <= 59) ?
                     <div className={styles.line}
                          style={{top: `${getQuarterHeight()}px`}}>
                         <div className={styles.time}>
@@ -156,13 +155,14 @@ const Calendar = () => {
                                                             {quarter.break ?
                                                                 <div className={`${styles.break} `}>
                                                                     {quarter.status === 'start' ?
-                                                                    <div className={styles.start}>
-                                                                        <p className={styles.text}>BREAK</p>
-                                                                        <p className={styles.breakTime}>12:15PM - 1:30PM
-                                                                            •
-                                                                            90mins</p>
-                                                                    </div>
-                                                                    : ''}
+                                                                        <div className={styles.start}>
+                                                                            <p className={styles.text}>BREAK</p>
+                                                                            <p className={styles.breakTime}>12:15PM -
+                                                                                1:30PM
+                                                                                •
+                                                                                90mins</p>
+                                                                        </div>
+                                                                        : ''}
 
                                                                 </div> : ''}
                                                         </div>

@@ -78,9 +78,9 @@
 
 .events {
   position: relative;
-  margin-left: 70px;
+  margin-left: 105px;
   @media only screen and (max-width: $extraExtraLargeDisplay) {
-    margin-left: 70px;
+    margin-left: 105px;
   }
   @media only screen and (max-width: $extraLargeDisplay) {
     margin-left: 65px;
@@ -155,8 +155,8 @@
   color: $titleColor;
   position: absolute;
   top: 0;
-  left: -40px;
-  width: 40px;
+  left: -50px;
+  width: 50px;
   @media only screen and (max-width: $extraLargeDisplay) {
     width: 50px;
     left: -50px;
