@@ -1,0 +1,645 @@
+{
+  "days": [
+    {
+      "hours": [
+        {
+          "quarters": [
+            {
+              "name": "Ashley Simons",
+              "desc": "Cardiac surgery",
+              "color": "#df7833",
+              "icon": "/uploads/credit-card.svg"
+            },
+            {
+              "name": "Andrew Peters Veelo",
+              "desc": "Cardiac surgery",
+              "color": "#03ae73",
+              "icon": "/uploads/doctor.svg"
+            },
+            {
+              "name": "Ashley Booravoola",
+              "desc": "Cardiac surgery",
+              "color": "#03ae73",
+              "icon": "/uploads/checkbox-filled.svg"
+            },
+            {
+              "name": "Peter Meyers",
+              "desc": "Cardiac surgery",
+              "color": "#c24040",
+              "icon": "/uploads/calender.svg"
+            }
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            {
+              "name": "Ashley Booravoola",
+              "desc": "Cardiac surgery",
+              "color": "#03ae73",
+              "icon": "/uploads/checkbox-filled.svg"
+            },
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            {
+              "name": "Peter Meyers",
+              "desc": "Cardiac surgery",
+              "color": "#c24040",
+              "icon": "/uploads/calender.svg"
+            },
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            {
+              "break": true,
+              "status": "start"
+            },
+            {
+              "break": true
+            },
+            {
+              "break": true
+            },
+            {
+              "break": true
+            }
+          ]
+        },
+        {
+          "quarters": [
+            {
+              "break": true
+            },
+            {
+              "break": true
+            },
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "hours": [
+        {
+          "quarters": [
+            0,
+            {
+              "name": "Andrew Peters Veelo",
+              "desc": "Cardiac surgery",
+              "color": "#03ae73",
+              "icon": "/uploads/doctor.svg"
+            },
+            {
+              "name": "Ashley Booravoola",
+              "desc": "Cardiac surgery",
+              "color": "#03ae73",
+              "icon": "/uploads/checkbox-filled.svg"
+            },
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "hours": [
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "hours": [
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "hours": [
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "hours": [
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "hours": [
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "quarters": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

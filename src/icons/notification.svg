@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <path id="prefix__a_notification" d="M7.59 11.872v.01c0 .839-.712 1.518-1.59 1.518-.878 0-1.59-.68-1.59-1.518v-.01h3.18zM6 .6c.395 0 .715.305.715.682v.771c1.67.317 2.93 1.724 2.93 3.413v2.503l1.43 2.006c.15.212.166.485.041.711-.125.226-.37.368-.639.368H1.523c-.268 0-.514-.142-.64-.368-.124-.226-.108-.5.042-.71l1.43-2.007V5.466c0-1.688 1.26-3.096 2.93-3.413v-.77C5.285.904 5.605.6 6 .6z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(2 1)">
+        <mask id="prefix__b_notification" fill="#fff">
+            <use xlink:href="#prefix__a_notification"/>
+        </mask>
+        <use fill="#000" xlink:href="#prefix__a_notification"/>
+        <g fill="#E6E6E6" mask="url(#prefix__b_notification)">
+            <path d="M0 0H16V16H0z" transform="translate(-2 -1)"/>
+        </g>
+    </g>
+</svg>

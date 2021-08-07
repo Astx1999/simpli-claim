@@ -1,0 +1,40 @@
+@import "../../variables";
+.root{
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  z-index: 2;
+  border-right: 1px solid $borderColor;
+  top: 55px;
+  @media only screen and (max-width: $extraExtraLargeDisplay) {
+    top: 55px;
+  }
+  @media only screen and (max-width: $extraLargeDisplay) {
+    top: 45px;
+  }
+  @media only screen and (max-width: $largeDisplay) {
+    top: 35px;
+  }
+}
+.item{
+  width: 55px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media only screen and (max-width: $extraLargeDisplay) {
+    width: 50px;
+    height: 45px;
+  }
+  @media only screen and (max-width: $largeDisplay) {
+    width: 45px;
+    height: 36px;
+  }
+}
+.active{
+  background-color: #1f2d3a;
+  border-left: 2px solid $secondaryColor;
+}

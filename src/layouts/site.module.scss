@@ -1,0 +1,17 @@
+@import 'src/variables';
+
+.main {
+  position: relative;
+  min-height: calc(100vh - 328px);
+  padding-left: 40px;
+  padding-top: 55px;
+  @media only screen and (max-width: $extraExtraLargeDisplay) {
+    padding-top: 55px;
+  }
+  @media only screen and (max-width: $extraLargeDisplay) {
+    padding-top: 45px;
+  }
+  @media only screen and (max-width: $largeDisplay) {
+    padding-top: 35px;
+  }
+}
