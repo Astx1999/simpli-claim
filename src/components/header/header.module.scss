@@ -32,8 +32,8 @@
 }
 
 .initials {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   background-color: $avatarBgColor;
   color: $textColor;
   font-size: 14px;
@@ -42,11 +42,13 @@
   align-items: center;
   border-radius: 50%;
   @media only screen and (max-width: $extraExtraLargeDisplay) {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
   }
   @media only screen and (max-width: $extraLargeDisplay) {
     font-size: 12px;
+    width: 25px;
+    height: 25px;
   }
   @media only screen and (max-width: $largeDisplay) {
     font-size: 10px;
@@ -141,11 +143,19 @@
   display: flex;
   align-items: center;
   color: $textColor;
-  font-size: 12px;
+  font-size: 16px;
   padding-right: 16px;
   border-right: 1px solid $textColor;
   font-family: $fontMedium;
-
+  @media only screen and (max-width: $extraExtraLargeDisplay) {
+    font-size: 16px;
+  }
+  @media only screen and (max-width: $extraLargeDisplay) {
+    font-size: 14px;
+  }
+  @media only screen and (max-width: $largeDisplay) {
+    font-size: 12px;
+  }
   .icon {
     margin-right: 4px;
     height: 14px;
