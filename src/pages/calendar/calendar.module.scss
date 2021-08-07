@@ -261,8 +261,8 @@
 
 .time {
   position: absolute;
-  left: -39px;
-  top: -8px;
+  left: -37px;
+  top: -12px;
   padding: 2px 4px;
   background-color: $secondaryColor;
   color: $textColor;
@@ -270,13 +270,14 @@
   text-align: center;
   @media only screen and (max-width: $extraLargeDisplay) {
     font-size: 12px;
-    top: -7px;
+    top: -10px;
+    left: -33px;
   }
   @media only screen and (max-width: $largeDisplay) {
     font-size: 10px;
-    top: -6px;
-    padding: 0;
-    left: -30px;
+    padding: 0 2px;
+    top: -8px;
+    left: -20px;
   }
 }
 
