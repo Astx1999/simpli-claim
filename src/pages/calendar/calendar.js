@@ -119,11 +119,18 @@ const Calendar = () => {
                                 <div className={styles.hour}/>
                                 {
                                     day.hours.map((hour, i) => {
-                                        return (
+                                        return i + 9 === 12 ? (
+
                                             <div key={i} className={styles.hour}>
-                                                {i + 9 > 12 ? i - 3 : i + 9} PM
-                                                {/*{i + 9} PM*/}
+                                                {i + 9 + 'PM'}
                                             </div>
+
+                                        ) : (
+
+                                            <div key={i} className={styles.hour}>
+                                                {`${i + 9 > 12 ? i - 3 + 'PM' : i + 9 + 'AM'}`}
+                                            </div>
+
                                         )
                                     })
                                 }
