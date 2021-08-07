@@ -1,50 +1,72 @@
 @import "src/variables";
 
-.root{
+.root {
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
-  background-color: #202020;
+  background-color: #292929;
   display: flex;
   width: fit-content;
-  padding-right: 5px;
   border-radius: 2px;
   overflow: hidden;
-  height: 50px;
+  height: 69px;
+  padding-right: 5px;
+
   @media only screen and (max-width: $extraExtraLargeDisplay) {
-    height: 50px;
+    height: 69px;
   }
   @media only screen and (max-width: $extraLargeDisplay) {
-    height: 50px;
+    height: 48px;
   }
   @media only screen and (max-width: $largeDisplay) {
     height: 28px;
   }
 
 }
-.status{
-  width: 4px;
-  margin-right: 6px;
+
+.iconWrapper {
+  background-color: #242424;
+  padding: 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.info{
-  margin-left: 10px;
-}
-.name{
-  color: $textColor;
-  font-size: 16px;
-  @media only screen and (max-width: 1600px) {
-    font-size: 13px;
-  }
+
+.icon {
+  width: 35px;
   @media only screen and (max-width: $extraLargeDisplay) {
-    font-size: 12px;
+    width: unset;
+    max-width: 30px;
+  }
+}
+
+.status {
+  min-width: 4px;
+}
+
+.info {
+  margin-left: 10px;
+  padding: 4px 5px 4px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name {
+  color: $textColor;
+  font-size: 15px;
+
+  @media only screen and (max-width: $extraLargeDisplay) {
+    font-size: 10px;
   }
   @media only screen and (max-width: $largeDisplay) {
     font-size: 10px;
   }
 }
-.desc{
+
+.desc {
   color: $titleColor;
   font-size: 14px;
   @media only screen and (max-width: $extraLargeDisplay) {
-    font-size: 12px;
+    font-size: 10px;
   }
   @media only screen and (max-width: $largeDisplay) {
     font-size: 8px;

@@ -30,12 +30,13 @@
   font-family: $fontMedium;
   zoom: 1.1;
   align-items: center;
-  @media only screen and (max-width: $largeDisplay) {
-    font-size: 10px;
-    zooom: 1
-  }
   @media only screen and (max-width: $extraLargeDisplay) {
     font-size: 12px;
+  }
+  @media only screen and (max-width: $largeDisplay) {
+    font-size: 10px;
+    zoom: 1;
+
   }
 
 }
@@ -44,9 +45,10 @@
   width: 15px;
   height: 15px;
   margin-right: 3px;
+  display: flex;
   @media only screen and (max-width: $largeDisplay) {
     width: 10px;
-    height: 10px;
+    height: unset;
   }
   svg {
     width: 100%;

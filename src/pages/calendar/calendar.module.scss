@@ -133,6 +133,7 @@
   align-items: flex-end;
   padding: 1px 8px;
   height: 70px;
+  opacity: 0.8;
   @media only screen and (max-width: $extraExtraLargeDisplay) {
     height: 70px;
   }
@@ -144,7 +145,8 @@
   }
 
   &:first-child {
-    background-color: rgba(255, 255, 255, 0.06);
+    background-color: #171717;
+    opacity: 1;
   }
 }
 
@@ -201,7 +203,11 @@
   width: 14.5%;
   display: flex;
   flex-direction: column;
-
+  opacity: 0.6;
+  &:first-child {
+    background-color: #171717;
+    opacity: 1;
+  }
 }
 
 .hourBlock {
@@ -330,7 +336,6 @@
       font-size: 10px;
     }
   }
-
   .breakTime {
     font-size: 14px;
     color: $titleColor;
