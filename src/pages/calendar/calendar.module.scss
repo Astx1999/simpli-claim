@@ -190,7 +190,16 @@
   }
 
   &:first-child {
-    height: 38px;
+    height: 70px;
+    @media only screen and (max-width: $extraExtraLargeDisplay) {
+      height: 70px;
+    }
+    @media only screen and (max-width: $extraLargeDisplay) {
+      height: 50px;
+    }
+    @media only screen and (max-width: $largeDisplay) {
+      height: 28px;
+    }
   }
 }
 
